@@ -10,3 +10,8 @@ public class Main {
       System.out.println(first + " + " + second + " = "  + sum);
     }
 }
+
+
+
+javac Main.java
+java Main
