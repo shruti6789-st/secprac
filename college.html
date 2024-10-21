@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .navbar {
+            background-color: #2c3e50; /* Dark professional color for navbar */
+        }
+        .navbar-brand, .nav-link {
+            color: #ecf0f1 !important; /* Light text for navbar */
+        }
+        .hero-section {
+            background: url('1698475364Meri_mati_mera_desh (1).jpg') no-repeat center center;
+            background-size: cover;
+            height: 70vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+        .hero-section p {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        .about-section, .courses-section {
+            padding: 60px 0;
+        }
+        .about-section h2, .courses-section h2 {
+            color: #34495e; /* Professional heading color */
+            font-weight: 700;
+        }
+        .about-text {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #ecf0f1 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vivekanand Education society's Institute of Technology</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Shaping Future Leaders</h1>
+            <p>Your success begins here at VESIT.</p>
+            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p class="about-text">At VESIT, we are committed to providing a top-quality education that prepares students to excel in their careers and contribute positively to society. With state-of-the-art facilities, experienced faculty, and a strong emphasis on innovation and research, we are proud to be one of the leading institutions in the country.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://www.targetadmission.com/img/colleges/newc/10463-137215.jpg" alt="Campus Image" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="download (1).jpeg" class="card-img-top" alt="Course 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Science</h5>
+                            <p class="card-text">Dive into the world of technology and programming with our comprehensive Computer Science course.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="OIP (1).jpeg" class="card-img-top" alt="Course 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Management</h5>
+                            <p class="card-text">Develop the leadership and management skills required to succeed in the corporate world.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="eng (1).jpeg" class="card-img-top" alt="Course 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Engineering</h5>
+                            <p class="card-text">Explore innovative solutions and gain hands-on experience in various engineering fields.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 Vivekanand Education society's Institute of Technology. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
