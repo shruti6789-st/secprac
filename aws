@@ -1,0 +1,5 @@
+aws s3 mb s3://bucketname
+
+add file by button of upload file that is in the system
+
+aws s3 cp file_name s3://bucketname
