@@ -18,3 +18,8 @@ public class Add{
         System.out.println(first + " + " + second + " = " + sum);
     }
 }
+
+
+
+javac add.java
+java add %first% %second%
